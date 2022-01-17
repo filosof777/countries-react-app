@@ -1,0 +1,55 @@
+.main__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main__form {
+  position: relative;
+}
+
+.main__btn-search {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  transform: translateY(-50%);
+  background-color: transparent;
+  color: var(--font-color);
+  width: 20px;
+  height: 20px;
+  border: none;
+  font-size: 18px;
+}
+
+.main__input-search {
+  border: none;
+  font-size: 18px;
+  width: 480px;
+  padding: 18px 74px;
+  border-radius: 5px;
+  color: var(--font-color);
+  background-color: var(--primary-bg-color);
+  box-shadow: var(--bx-shadow);
+  outline: none;
+}
+
+.main__input-search::-webkit-search-cancel-button,
+input::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+.main__input-datalist {
+  width: 250px;
+  font-size: 18px;
+  padding: 18px 24px;
+  border-radius: 5px;
+  border: none;
+  color: var(--font-color);
+  background-color: var(--primary-bg-color);
+  box-shadow: var(--bx-shadow);
+  outline: none;
+}
+
+.main__input-datalist::placeholder {
+  color: var(--font-color);
+}

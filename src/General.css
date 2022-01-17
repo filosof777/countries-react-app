@@ -1,0 +1,74 @@
+/* GENERAL */
+/* https://restcountries.com/v3.1/all */
+html {
+  box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #f2f2f2;
+  
+  --font-color: #111517;
+  --bx-shadow: 0px 2px 4px #0000000e;
+}
+
+.dark {
+  --primary-bg-color: #2B3844;
+  --secondary-bg-color: #202C36;
+  
+  --font-color: #f2f2f2;
+  --bx-shadow: 0px 2px 4px #0000000e;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 1300px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
